@@ -1,5 +1,5 @@
 section {
-  background-color: black;
+    background-color: black;
     /*background: rgb(2,0,36);
     background: linear-gradient(120deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);*/
 }
@@ -11,37 +11,52 @@ section {
 .name {
     padding-top: 8.5px;
     font-size: 26px;
-color: #fff;
+    color: #fff;
     font-family: 'Alegreya Sans SC', sans-serif;
 }
 
 .profile {
-    padding-left: 9rem;
+    padding-left: 1rem;
 }
 
 @media (min-width:768px) {
     .profile {
-        padding-left: unset;
+        padding-left: 9rem;
     }
 }
 
 .media {
-    width: 30rem;
+    width: 20rem;
     background-color: transparent;
     border-radius: 50px;
     display: inline-block;
     height: 50px;
-background-color: #f0f2f8;
-transition: transform .2s;
+    background-color: #f0f2f8;
+    transition: transform .2s;
     border: 1px solid rgba(0, 0, 0, .125);
-    
 }
+
+@media (min-width:768px) {
+    .media {
+        width: 30rem;
+        background-color: transparent;
+        border-radius: 50px;
+        display: inline-block;
+        height: 50px;
+        background-color: #f0f2f8;
+        transition: transform .2s;
+        border: 1px solid rgba(0, 0, 0, .125);
+    }
+}
+
 .media:hover {
     background-color: rgb(219, 219, 219);
-    -ms-transform: scale(1.02); /* IE 9 */
-  -webkit-transform: scale(1.02); /* Safari 3-8 */
-  transform: scale(1.02); 
-  }
+    -ms-transform: scale(1.02);
+    /* IE 9 */
+    -webkit-transform: scale(1.02);
+    /* Safari 3-8 */
+    transform: scale(1.02);
+}
 
 .media_2 {
     height: 5rem;
@@ -54,29 +69,34 @@ transition: transform .2s;
 }
 
 .logo {
-   
+
     width: 3rem;
     padding-top: 0.5rem;
     padding-left: 0.7rem;
 
 }
-.title{
+
+.title {
     width: 8rem;
     margin: 0.4rem;
 }
-.title_txt{
+
+.title_txt {
     font-family: 'Heebo', sans-serif;
     padding-top: 1rem;
     font-size: 20px;
-    color:#000;
+    color: #000;
     padding-right: 2rem;
-text-decoration: solid;
+    text-decoration: solid;
 }
-a{
-text-decoration: none;
+
+a {
+    text-decoration: none;
 
 }
-html,body {
+
+html,
+body {
     width: 100%;
     height: 100%;
     margin: 0px;
