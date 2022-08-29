@@ -1,5 +1,5 @@
 section {
-  
+  background-color: black;
     /*background: rgb(2,0,36);
     background: linear-gradient(120deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);*/
 }
@@ -11,7 +11,7 @@ section {
 .name {
     padding-top: 8.5px;
     font-size: 26px;
-
+color: #fff;
     font-family: 'Alegreya Sans SC', sans-serif;
 }
 
@@ -30,7 +30,7 @@ section {
     background-color: transparent;
     border-radius: 50px;
     display: inline-block;
-    height: 4rem;
+    height: 50px;
 background-color: #f0f2f8;
 transition: transform .2s;
     border: 1px solid rgba(0, 0, 0, .125);
@@ -54,9 +54,11 @@ transition: transform .2s;
 }
 
 .logo {
-    width: 3.2rem;
-    padding-top: 0.7rem;
+   
+    width: 3rem;
+    padding-top: 0.5rem;
     padding-left: 0.7rem;
+
 }
 .title{
     width: 8rem;
@@ -65,7 +67,10 @@ transition: transform .2s;
 .title_txt{
     font-family: 'Heebo', sans-serif;
     padding-top: 1rem;
-    font-size: 23px;
+    font-size: 20px;
+    color:#000;
+    padding-right: 2rem;
+text-decoration: solid;
 }
 a{
 text-decoration: none;
